@@ -1,101 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AI Sourav-MD</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: white;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Sourav MD</title>
 
-    header {
-      padding: 50px 20px;
-    }
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-    h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
+body {
+  background: linear-gradient(-45deg, #0f172a, #111827, #1e293b, #0f172a);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
 
-    .btn {
-      display: inline-block;
-      margin: 15px;
-      padding: 12px 25px;
-      background: #00c6ff;
-      color: black;
-      text-decoration: none;
-      border-radius: 30px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
 
-    .btn:hover {
-      background: white;
-    }
+header {
+  padding: 100px 20px;
+}
 
-    section {
-      padding: 40px 20px;
-    }
+h1 {
+  font-size: 52px;
+  background: linear-gradient(90deg, #00f5ff, #00ff88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-    .card {
-      background: rgba(255,255,255,0.1);
-      padding: 20px;
-      margin: 15px auto;
-      max-width: 500px;
-      border-radius: 15px;
-    }
+.typing {
+  font-size: 20px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
 
-    footer {
-      padding: 20px;
-      font-size: 14px;
-      opacity: 0.7;
-    }
-  </style>
+.buttons {
+  margin-top: 35px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  margin: 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.whatsapp {
+  background: #25D366;
+  color: black;
+}
+
+.telegram {
+  background: #0088cc;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,255,255,0.4);
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  margin: 25px auto;
+  max-width: 550px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0,255,255,0.2);
+}
+
+footer {
+  padding: 40px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>👑 AI Sourav-MD</h1>
-  <p>Smart WhatsApp AI Assistant</p>
-  <a href="https://wa.me/YOURNUMBER" class="btn">Invite Bot</a>
-  <a href="#features" class="btn">View Features</a>
+  <h1>AI SOURAV MD</h1>
+  <div class="typing" id="typing"></div>
+
+  <div class="buttons">
+    <a href="https://wa.me/YOURNUMBER" class="btn whatsapp">WhatsApp</a>
+    <a href="https://t.me/YOURUSERNAME" class="btn telegram">Telegram</a>
+  </div>
 </header>
 
-<section id="features">
-  <h2>🔥 Features</h2>
-
-  <div class="card">
-    <h3>🤖 AI Chat</h3>
-    <p>Smart AI replies with memory & personality modes.</p>
-  </div>
-
-  <div class="card">
-    <h3>👑 Group Control</h3>
-    <p>Anti-link, anti-spam, warnings, auto moderation.</p>
-  </div>
-
-  <div class="card">
-    <h3>🎨 Creative Tools</h3>
-    <p>Sticker maker, image tools, text-to-speech, downloader.</p>
-  </div>
-</section>
-
 <section>
-  <h2>💎 Premium</h2>
   <div class="card">
-    <p>Unlock unlimited AI, advanced tools & custom personality mode.</p>
-    <a href="https://wa.me/YOURNUMBER" class="btn">Get Premium</a>
+    <h2>🤖 Advanced AI Chat</h2>
+    <p>Human-like responses with smart memory & personality modes.</p>
+  </div>
+
+  <div class="card">
+    <h2>👑 Smart Group Control</h2>
+    <p>Anti-link, anti-spam, moderation & auto warning system.</p>
+  </div>
+
+  <div class="card">
+    <h2>🚀 Creative AI Tools</h2>
+    <p>Sticker maker, downloader, image tools & more.</p>
+  </div>
+
+  <div class="card">
+    <h2>💎 Premium Access</h2>
+    <p>Unlock unlimited AI power & advanced exclusive features.</p>
   </div>
 </section>
 
 <footer>
-  ⚡ AI Sourav-MD v1.0 | Powered by Sourav
+  © 2026 AI Sourav MD | Designed by Sourav
 </footer>
+
+<script>
+const text = "Next Generation WhatsApp AI Assistant";
+let index = 0;
+
+function type() {
+  if (index < text.length) {
+    document.getElementById("typing").innerHTML += text.charAt(index);
+    index++;
+    setTimeout(type, 60);
+  }
+}
+
+type();
+</script>
 
 </body>
 </html>
